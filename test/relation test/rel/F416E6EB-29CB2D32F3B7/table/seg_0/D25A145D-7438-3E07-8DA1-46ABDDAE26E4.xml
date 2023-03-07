@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D25A145D-7438-3E07-8DA1-46ABDDAE26E4" name="고객">
+<createdBy>mond</createdBy>
+<createdTime>2023-03-06 05:36:09 UTC</createdTime>
+<ownerDesignName>relation test</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="9723B82F-D28B-F0D3-4615-3CCBD18D1F88">
+<createdBy>mond</createdBy>
+<createdTime>2023-03-06 05:36:59 UTC</createdTime>
+<ownerDesignName>relation test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="3E753080-F145-CA4A-C31B-40865263CA33">
+<createdBy>mond</createdBy>
+<createdTime>2023-03-06 05:37:53 UTC</createdTime>
+<ownerDesignName>relation test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AB0A4921-D25E-4869-F253-D3C8DB40C4AD" name="고객_PK">
+<createdBy>mond</createdBy>
+<createdTime>2023-03-06 05:36:59 UTC</createdTime>
+<ownerDesignName>relation test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9723B82F-D28B-F0D3-4615-3CCBD18D1F88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

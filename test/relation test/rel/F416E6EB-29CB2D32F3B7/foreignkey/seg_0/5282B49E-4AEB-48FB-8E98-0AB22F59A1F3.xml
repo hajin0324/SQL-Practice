@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5282B49E-4AEB-48FB-8E98-0AB22F59A1F3" containerWithKeyObject="066CC1EB-3B7B-2B31-90B7-B5B97A8C6436" localFKIndex="5180E137-2381-0662-4394-AD1AC91C2225" name="계좌_고객_FK">
+<createdBy>mond</createdBy>
+<createdTime>2023-03-06 05:42:13 UTC</createdTime>
+<ownerDesignName>relation test</ownerDesignName>
+<referredTableLongName>고객</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D25A145D-7438-3E07-8DA1-46ABDDAE26E4</referredTableID>
+<keyObject>AB0A4921-D25E-4869-F253-D3C8DB40C4AD</keyObject>
+<referredKeyID>AB0A4921-D25E-4869-F253-D3C8DB40C4AD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
